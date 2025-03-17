@@ -1,0 +1,39 @@
+
+.navbar{
+    background-color:white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container{
+    margin-top: 0;
+    height: 60px;
+}
+
+.me-auto{
+    margin-top: 15px;
+    padding: 0;
+    margin-left: 100px;
+}
+
+
+.nav-links{
+    margin-left: 40px ;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: black !important;
+    
+}
+.nav-button{
+    width: 150px;
+    background-color: #E15600!important;
+    padding: 10px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.navbar-logo{
+    width: 200px;
+    height:auto;
+}

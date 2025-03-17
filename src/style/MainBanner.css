@@ -1,0 +1,21 @@
+.banner-h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#h2{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FF6100;
+}
+
+.banner-h1{
+    font-weight: 700;
+    font-size: 68px;
+    margin-bottom: 30px;
+}
+.banner-p{
+    font-weight: 400;
+    font-size: 28px;
+    color:rgb(84, 94, 148);
+}

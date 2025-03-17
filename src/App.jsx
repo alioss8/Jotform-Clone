@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarHomePage from './components/Navbar'
+import MainBanner from './components/MainBanner'
 function App() {
   
 
   return (
     <>
-    <Navbar></Navbar>
+      <NavbarHomePage></NavbarHomePage>
+      <MainBanner></MainBanner>
     </>
   )
 }
