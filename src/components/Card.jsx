@@ -4,7 +4,7 @@ import "../style/Card.css";
 function ButtonCard() {
 return (
     <> 
-        <Card className='ButtonCard  mt-5'>
+        <Card className='ButtonCard  mt-5 '>
             <Card.Body >
                 <Stack direction="vertical" gap={3}  className='Buttons'>
                     <Button  id='google-button'><Image id='google-icon' src='../src/assets/Card/google_icon.png'></Image>Signup With Google</Button>

@@ -1,0 +1,33 @@
+.ai-card{
+    background: linear-gradient(to bottom right, #E3DEFD , #F4E9FE);
+}
+#ai-agent{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    background: linear-gradient(90deg,#C02CB5 , #1D9DD9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#customer-h1{
+    color:#0A1551;
+    font-size: 48px;
+    font-weight: 700;
+}
+#ai-agent-p{
+    color: #6C73A8;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#ai-agent-button{
+    background-color: #7923DD !important;
+    color: white;
+    font-size:24px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}

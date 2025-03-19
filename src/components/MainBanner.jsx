@@ -4,7 +4,7 @@ import "../style/MainBanner.css";
 import ButtonCard from "./Card"
 function MainBanner() {
 return (
-    <Container  fluid className='custom-container'>
+    <Container className='custom-container'>
     <Row className='text-center mt-5'>
         <Row className='banner-h2'>
             <h2 id='h2'>EASIEST ONLINE FORM BUILDER</h2>
@@ -17,9 +17,11 @@ return (
         </Row>
         <Row>
             <Col > <Image src='../src/assets/Banner/purple-girl.webp' fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"40px"}}></Image> </Col>
-            <Col className='col-4'>  <ButtonCard></ButtonCard> </Col>
+            <Col className="col-12 col-md-6 col-lg-4">  <ButtonCard></ButtonCard> </Col>
                 
-            <Col> <Image src='../src/assets/Banner/yellow-girl.webp'fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"80px"}}></Image></Col>
+            <Col> <Image src='../src/assets/Banner/yellow-girl.webp'fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"80px"}}></Image>
+           
+            </Col>
         </Row>
         
     </Row>

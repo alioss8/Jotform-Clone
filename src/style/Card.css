@@ -2,14 +2,17 @@
     font-weight: 900;
     border: 1px solid lightgray;
     border-radius: 15px;
-    height: 360px;
+    height: auto;
+    width: auto;
     box-shadow: 0 5px 0px 2px #D2DBF2;
+    
 }
 
 #google-button{
     display: flex;
     align-items: start;
-    height: 60px;
+    height:auto;
+    width:auto;
     font-size: 21px;
     font-weight: 600;
     padding-top: 15px;

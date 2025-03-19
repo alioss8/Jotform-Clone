@@ -1,6 +1,6 @@
 .custom-container {
     width: 100%; 
-    max-width: 1300px;
+    
 }
 
 
@@ -18,9 +18,12 @@
 }
 
 .banner-h1{
+    display: block;
     font-weight: 700;
     font-size: 68px;
     margin-bottom: 30px;
+    line-height: 5; 
+    
 }
 .banner-p{
     font-weight: 400;
