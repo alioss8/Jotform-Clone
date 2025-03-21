@@ -10,6 +10,8 @@
 
 #google-button{
     display: flex;
+    align-items: center;
+    justify-content: center;
     align-items: start;
     height:auto;
     width:auto;
@@ -18,6 +20,7 @@
     padding-top: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #google-icon  {
@@ -29,11 +32,14 @@
 
 #microsoft-button{
     display: flex;
+    align-items: center;
+    justify-content: center;
     align-items: start;
     height: 60px;
     font-size: 21px;
     font-weight: 600;
     padding-top: 15px;
+    
     
 }
 #microsoft-icon{
@@ -61,17 +67,17 @@
     margin: 10px 0;
     font-weight: 400;
     color: #7C86A6;
-  }
-  
-  .separator::before,
-  .separator::after {
+}
+
+.separator::before,
+.separator::after {
     content: "";
     flex: 1;
     border-bottom: 1px solid #b0b3d6;
     margin: 0 10px;
-  }
+}
   
-  .separator span {
+.separator span {
     color: #6c7a96;
     font-weight: bold;
   }
@@ -79,4 +85,5 @@
 .card-footer-text{
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
 }

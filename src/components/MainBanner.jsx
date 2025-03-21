@@ -20,7 +20,6 @@ return (
             <Col className="col-12 col-md-6 col-lg-4">  <ButtonCard></ButtonCard> </Col>
                 
             <Col> <Image src='../src/assets/Banner/yellow-girl.webp'fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"80px"}}></Image>
-           
             </Col>
         </Row>
         

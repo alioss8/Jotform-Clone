@@ -1,34 +1,39 @@
 import React from "react";
-import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import { Card } from "react-bootstrap";
 
-const StarRating = ({ rating }) => {
-  const fullStars = Math.floor(rating);
-  const halfStar = rating - fullStars >= 0.5;
-  const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
+const StarRating = ({ rating = 0 }) => {
+  const safeRating = Number(rating); 
+  if (isNaN(safeRating)) {
+    console.error("Hata: rating geçersiz!", rating);
+    return <p>Geçersiz puan</p>;
+  }
+
+  
+  const fullStars = Math.floor(safeRating); 
+  const hasHalfStar = safeRating % 1 !== 0;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
 
   return (
-    <Card className="p-3 d-flex align-items-center" style={{ width: "200px" }}>
+    <Card className="p-3 d-flex align-items-center" style={{ width: "220px",border:"none"}}>
       <div className="d-flex align-items-center">
         <span style={{ fontWeight: "bold", fontSize: "1.2rem", marginRight: "5px" }}>
-          {rating.toFixed(1)}
+          {safeRating.toFixed(1)}
         </span>
-        {[...Array(fullStars)].map((_, i) => (
-          <FaStar key={i} color="gold" size={20} />
-        ))}
-        {halfStar && <FaStarHalfAlt color="gold" size={20} />}
-        {[...Array(emptyStars)].map((_, i) => (
-          <FaStar key={i + fullStars + 1} color="#ccc" size={20} />
-        ))}
+        <div style={{ display: "flex", gap: "2px" }}>
+          {[...Array(fullStars)].map((_, i) => (
+            <FaStar key={`full-${i}`} color="gold" size={24} />
+          ))}
+          
+          {hasHalfStar && <FaStar key="half" color="gold" size={24} style={{ clipPath: "inset(0 50% 0 0)" }} />}
+
+          {[...Array(emptyStars)].map((_, i) => (
+            <FaStar key={`empty-${i}`} color="#ccc" size={24} />
+          ))}
+        </div>
       </div>
     </Card>
   );
 };
 
-export default function App() {
-  return (
-    <div className="d-flex justify-content-center mt-5">
-      <StarRating rating={3.8} />
-    </div>
-  );
-}
+export default StarRating;
