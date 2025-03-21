@@ -1,0 +1,89 @@
+.ButtonCard{
+    font-weight: 900;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    box-shadow: 0 5px 0px 2px #D2DBF2;
+    
+}
+
+#google-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: start;
+    height:auto;
+    width:auto;
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#google-icon  {
+    background-color: white;
+    border-radius: 100%;
+    margin-right: 20px;
+    height: 36px;
+}
+
+#microsoft-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: start;
+    height: 60px;
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 15px;
+    
+    
+}
+#microsoft-icon{
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 20px;
+    height: 36px;
+}
+#empty-button{
+    background-color: #FF6100 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 400;
+    color: #7C86A6;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #b0b3d6;
+    margin: 0 10px;
+}
+  
+.separator span {
+    color: #6c7a96;
+    font-weight: bold;
+  }
+  
+.card-footer-text{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
