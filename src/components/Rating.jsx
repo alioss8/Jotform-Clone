@@ -11,22 +11,22 @@ return (
         </Row>
         <Row id='rayting-row'  className='d-flex align-items-center justify-content-center' style={{marginRight:"80px",marginTop:"50px"}} >
             <Col> 
-                <Image src='../src/assets/Rating/g2-crowd.svg' style={{marginLeft:"80px"}}></Image>   <StarRating rating={4.7}/>
+                <Image src='/Rating/g2-crowd.svg' style={{marginLeft:"80px"}}></Image>   <StarRating rating={4.7}/>
             </Col>
             <Col>
-                <Image src='../src/assets/Rating/capterra.svg' style={{marginLeft:"15px",width:"200px",marginBottom:"5px"}}>
+                <Image src='/Rating/capterra.svg' style={{marginLeft:"15px",width:"200px",marginBottom:"5px"}}>
                 </Image>
                 <StarRating rating={4.7}/>
             </Col>
             <Col>
-                <Image src='../src/assets/Rating/software-advice.svg' style={{marginLeft:"15px",width:"200px",marginBottom:"20px",marginTop:"10px"}}></Image><StarRating rating={4.7}/>
+                <Image src='/Rating/software-advice.svg' style={{marginLeft:"15px",width:"200px",marginBottom:"20px",marginTop:"10px"}}></Image><StarRating rating={4.7}/>
             </Col>
             <Col>
-                <Image src='../src/assets/Rating/product-hunt.svg' style={{marginLeft:"15px",width:"200px"}}></Image>
+                <Image src='/Rating/product-hunt.svg' style={{marginLeft:"15px",width:"200px"}}></Image>
                 <StarRating rating={5.0}/>
             </Col>
             <Col> 
-                <Image src='../src/assets/Rating/trustradius.svg' style={{marginLeft:"15px",width:"200px",marginBottom:"12px"}}></Image>
+                <Image src='/Rating/trustradius.svg' style={{marginLeft:"15px",width:"200px",marginBottom:"12px"}}></Image>
                 <StarRating rating={4.5}/>
             </Col>
         </Row>

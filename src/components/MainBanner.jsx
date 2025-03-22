@@ -20,10 +20,10 @@ return (
             <p>We believe the right form makes all the difference. Go from busywork to less work with powerful forms that use conditional logic, accept payments, generate reports, and automate workflows.</p>
         </Row>
         <Row>
-            <Col > <Image src='../src/assets/Banner/purple-girl.webp' fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"40px"}}></Image> </Col>
+            <Col > <Image src='/Banner/purple-girl.webp' fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"40px"}}></Image> </Col>
             <Col className="col-12 col-md-6 col-lg-4">  <ButtonCard></ButtonCard> </Col>
                 
-            <Col> <Image src='../src/assets/Banner/yellow-girl.webp'fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"80px"}}></Image>
+            <Col> <Image src='/Banner/yellow-girl.webp'fluid className='d-none d-md-block' style={{width:"22rem",marginTop:"80px"}}></Image>
             </Col>
         </Row>
         

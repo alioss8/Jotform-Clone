@@ -12,7 +12,7 @@ function NavbarHomePage() {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="../src/assets/Navbar/JotformLogo.png"
+            src="/Navbar/Jotformlogo.png"
             alt="Jotform Logo"
             className="d-inline-block align-top"
             id='jotform-logo-navbar'

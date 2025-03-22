@@ -57,17 +57,17 @@ return (
         
         <Stack direction="vertical" className="d-none d-md-flex">
             <h5 >Apps</h5>
-            <Image fluid id="google-play-png" src="../src/assets/Footer/google-play.png" ></Image>
-            <Image fluid id="play-store-png"src="../src/assets/Footer/app-store.png"></Image>
-            <Image fluid id="google-play-png" src="../src/assets/Footer/google-play.png"></Image>
+            <Image fluid id="google-play-png" src="/Footer/google-play.png" ></Image>
+            <Image fluid id="play-store-png"src="/Footer/app-store.png"></Image>
+            <Image fluid id="google-play-png" src="/Footer/google-play.png"></Image>
         </Stack>
         </Col>
         <Col  xs={12} md={4} >
         <h5 id="apps-footer-h5"  className="d-md-none m-auto" >Apps</h5>
         <Stack direction="vertical" className="d-md-none ml-5 text-center mt-2">
-            <Image  fluid id="google-play-png" src="../src/assets/Footer/google-play.png" ></Image>
-            <Image  fluid id="play-store-png"src="../src/assets/Footer/app-store.png"></Image>
-            <Image fluid id="google-play-png" src="../src/assets/Footer/google-play.png"></Image>
+            <Image  fluid id="google-play-png" src="/Footer/google-play.png" ></Image>
+            <Image  fluid id="play-store-png"src="/Footer/app-store.png"></Image>
+            <Image fluid id="google-play-png" src="/Footer/google-play.png"></Image>
         </Stack>
         </Col>
         </Row>
@@ -77,7 +77,7 @@ return (
     <Container className=" d-none d-md-flex">
         <Row >
             <Col md={1} >
-            <Image src="../src/assets/Footer/footer-img.png" ></Image>
+            <Image src="/Footer/footer-img.png" ></Image>
             </Col>
             <Col md={9} style={{marginTop:"15px"}}>
             <span id="footer-offices">Our Offices </span>
@@ -106,7 +106,7 @@ return (
         <Row >
             <Stack direction="vertical " className="mt-3">
             <Col md={6}>
-            <Image src="../src/assets/Footer/footer-img.png" ></Image>
+            <Image src="/Footer/footer-img.png" ></Image>
             </Col>
             <Col md={6}>
             <Stack direction="vertical" >
