@@ -5,6 +5,10 @@ import ButtonCard from "./Card"
 function MainBanner() {
 return (
     <Container className='custom-container'>
+         <div className='d-md-none m-auto'>
+         <div className="bubble bubble-orange"></div>
+         <div className="bubble bubble-blue"></div>
+         </div>
     <Row className='text-center mt-5'>
         <Row className='banner-h2'>
             <h2 id='h2'>EASIEST ONLINE FORM BUILDER</h2>

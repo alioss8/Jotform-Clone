@@ -7,7 +7,7 @@ function Ai_Agent() {
     <Container >
     <Row>
           <Card style={{height:"auto",width:"auto",justifyContent:"space-between"}} className='mt-5 ai-card'>
-                <Stack direction='horizontal' style={{marginTop:"80px"}}>
+                <Stack direction='horizontal' style={{marginTop:"50px"}}>
                 <Image fluid src='../src/assets/Agent/section-left.png' className='d-none d-md-block' style={{width:"13rem", height:"18rem"}}></Image>
                 <Container className='text-center'>
                 <h2 id='ai-agent'>Announcing Jotform AI Agents</h2>

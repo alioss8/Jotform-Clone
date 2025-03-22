@@ -4,12 +4,6 @@ import { Card } from "react-bootstrap";
 
 const StarRating = ({ rating = 0 }) => {
   const safeRating = Number(rating); 
-  if (isNaN(safeRating)) {
-    console.error("Hata: rating geçersiz!", rating);
-    return <p>Geçersiz puan</p>;
-  }
-
-  
   const fullStars = Math.floor(safeRating); 
   const hasHalfStar = safeRating % 1 !== 0;
   const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);

@@ -2,15 +2,10 @@
     width: 100%; 
     
 }
-
-
-
-
 .banner-h2{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 #h2{
     font-weight: 600;
     font-size: 25px;
@@ -23,6 +18,7 @@
     font-size: 68px;
     margin-bottom: 30px;
     line-height: 5; 
+    text-align: center;
     
 }
 .banner-p{
@@ -30,3 +26,24 @@
     font-size: 28px;
     color:rgb(84, 94, 148);
 }
+
+.bubble {
+    width: 150px; /* Daire boyutu */
+    height: 150px;
+    border-radius: 50%;
+    position: absolute; /* Serbest hareket için */
+    opacity: 0.5; /* Hafif saydam */
+    z-index: -1; /* Arka planda kalması için */
+  }
+.bubble-orange {
+    background-color: #FFB629;
+    top: 500px;
+    left: -80px;
+  }
+  
+  /* Mavi bubble */
+  .bubble-blue {
+    background-color:#0099FF;
+    top: 0px;
+    right: -80px;
+  }

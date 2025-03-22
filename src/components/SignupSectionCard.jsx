@@ -4,7 +4,7 @@ import { Row , Col, Container,Image,Button,Stack} from 'react-bootstrap'
 import "../style/SignupSectionCard.css"; 
 function SignupSectionCard() {
 return (
-    <div style={{background:"#0C174E"}} >
+    <div style={{background:"#0C174E",paddingBottom:"80px"}} >
         <Container>
         <Row>
             <Col className='col-12 col-md-6 col-lg-5 m-auto text-col'>
