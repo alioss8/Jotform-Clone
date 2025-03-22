@@ -53,7 +53,6 @@ return (
                 <ListGroupItem>Partnerships</ListGroupItem>
             </ListGroup>
         </Col>
-
         <Col  xs={6} md={4} >
         
         <Stack direction="vertical" className="d-none d-md-flex">
@@ -65,7 +64,7 @@ return (
         </Col>
         <Col  xs={12} md={4} >
         <h5 id="apps-footer-h5"  className="d-md-none m-auto" >Apps</h5>
-        <Stack direction="horizontal" className="d-md-none m-auto mt-2">
+        <Stack direction="vertical" className="d-md-none ml-5 text-center mt-2">
             <Image  fluid id="google-play-png" src="../src/assets/Footer/google-play.png" ></Image>
             <Image  fluid id="play-store-png"src="../src/assets/Footer/app-store.png"></Image>
             <Image fluid id="google-play-png" src="../src/assets/Footer/google-play.png"></Image>

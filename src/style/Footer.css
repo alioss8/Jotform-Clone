@@ -11,19 +11,27 @@ footer .list-group-item {
     color: #FF6100;                
     transition: background-color 0.3s ease;  
 }
-
+h5{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+}
 #google-play-png{
     width: 135px;
     height: auto;
-    margin-right: 10px;
+    
 }
 @media (min-width: 768px) {
     #google-play-png{
     width: 250px; 
 }}
+@media (max-width: 768px) {
+    #google-play-png{
+    margin-left: 110px; 
+}}
 #play-store-png{
     width: 120px;
-    margin-right: 10px;
+    margin-left: 90px;
 }
 @media (min-width: 768px) {
     #play-store-png{
@@ -31,6 +39,18 @@ footer .list-group-item {
     margin-left: 17px;
     height: 65px;
     }}
+
+@media (min-width: 768px) {
+    #play-store-png{
+    width: 230px;
+    margin-left: 17px;
+    height: 65px;
+    }}
+@media (max-width: 768px) {
+    #play-store-png{
+    margin-left: 120px;
+    }}
+
 #apps-footer-h5{
     text-align: center;
     margin-top: 50px;

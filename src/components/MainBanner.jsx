@@ -9,7 +9,7 @@ return (
          <div className="bubble bubble-orange"></div>
          <div className="bubble bubble-blue"></div>
          </div>
-    <Row className='text-center mt-5'>
+    <Row className='text-center mt-2'>
         <Row className='banner-h2'>
             <h2 id='h2'>EASIEST ONLINE FORM BUILDER</h2>
         </Row>

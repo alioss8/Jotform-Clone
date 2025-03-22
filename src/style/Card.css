@@ -10,8 +10,6 @@
 
 #google-button{
     display: flex;
-    align-items: center;
-    justify-content: center;
     align-items: start;
     height:auto;
     width:auto;
@@ -32,16 +30,15 @@
 
 #microsoft-button{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
     align-items: start;
-    height: 60px;
+    height: auto;
     font-size: 21px;
     font-weight: 600;
-    padding-top: 15px;
-    
+    padding-top: 15px; 
     
 }
+
 #microsoft-icon{
     background-color: white;
     border-radius: 100%;

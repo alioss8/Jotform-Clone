@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-     
+      <NavbarHomePage></NavbarHomePage>
       <MainBanner></MainBanner>
       <AiAgent></AiAgent>
       <Rating></Rating>

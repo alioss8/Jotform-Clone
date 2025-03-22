@@ -1,14 +1,15 @@
 import React from 'react'
 import { Container,Row,Col,Image}from 'react-bootstrap'
 import StarRating from "./RatingStar"
+import "../style/Rating.css"; 
 function Rating() {
 return (
-    <>
-    <Container>
+    
+     <Container>
         <Row>
             <Col className='text-center mt-5'><p style={{fontSize:"32px",fontWeight:"400"}}>See why Jotform is trusted by <strong>30+ million users</strong> </p></Col>
         </Row>
-        <Row className='d-flex align-items-center justify-content-center' style={{marginRight:"80px",marginTop:"50px"}} >
+        <Row id='rayting-row'  className='d-flex align-items-center justify-content-center' style={{marginRight:"80px",marginTop:"50px"}} >
             <Col> 
                 <Image src='../src/assets/Rating/g2-crowd.svg' style={{marginLeft:"80px"}}></Image>   <StarRating rating={4.7}/>
             </Col>
@@ -30,7 +31,7 @@ return (
             </Col>
         </Row>
     </Container>
-    </>
+    
 )
 }
 
